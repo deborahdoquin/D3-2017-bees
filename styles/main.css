@@ -1,0 +1,201 @@
+/*#### Header elements   ####*/
+
+header {
+  overflow: hidden;
+  background: #e6b220;
+
+}
+
+
+footer {
+  overflow: hidden;
+  background: #EAEBDF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  text-decoration-color: #fff;
+
+}
+
+#logo {
+  width : 150px;
+  margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+
+}
+
+nav li a {
+  display: block;
+  padding: 0.6em;
+  color: #000;
+  margin-left: 40px;
+  text-align: center;
+
+}
+
+.baniere {
+ background: url('images/banner.jpg') ;
+top center no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+ padding : 22px;
+ min-height : 65vh;
+ margin-top: 10px;
+ padding-top: 100px;
+}
+
+footer a {
+  color: #fff;
+}
+
+.color-section {
+top center no-repeat;
+ background-attachment: fixed;
+ padding : 22px;
+ margin-top: 10px;
+ padding-top: 100px;
+ padding-bottom: 100px;
+}
+.icon {
+ background: #EAEBDF ;
+ padding : 22px;
+ margin-top: 10px;
+ padding-top: 100px;
+ padding-bottom: 100px;
+}
+
+.illustration {
+  background: url('images/illustration2.jpg') ;
+ top center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding : 22px;
+  min-height : 30vh;
+
+  padding-top: 100px;
+}
+
+/*#### Styles sur la video   ####*/
+
+video {
+  border : 2em solid #fff;
+  border-radius: 1em;
+  display: block;
+  width : auto;
+  margin: 2em auto;
+  max-height : 32vh;
+  background: #000;
+}
+
+
+/*#### Styles pour les navigations dans les pages   ####*/
+
+.page-navigation-block {
+  padding: 0.5em;
+  background: #EAEBDF;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 15vh;
+}
+
+.page-navigation-block a {
+  display: block;
+  padding-left: 50px;
+  padding: 10px;
+  color: #000;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.page-navigation-block img {
+width: 100px;
+
+}
+
+
+
+.next {
+
+  display: flex;
+  align-items: center;
+  background: url('images/suivant.svg') right no-repeat;
+  padding-right: 20px;
+  float: right;
+  width: 350px;
+  height: 30px;
+
+}
+
+.previous {
+  display: flex;
+  align-items: center;
+  background: url('images/precedent.svg') left no-repeat;
+  padding-left: 20px;
+  float: left;
+  width: 350px;
+  height: 30px;
+
+
+}
+
+.video01 {
+ background: url('images/banner2.jpg') ;
+top center no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+ padding : 22px;
+ min-height : 30vh;
+ margin-top: 10px;
+ padding-top: 20px;
+}
+
+.video02 {
+ background: url('images/banner3.jpg') ;
+top center no-repeat;
+ background-size: cover;
+ padding : 22px;
+ min-height : 30vh;
+ margin-top: 10px;
+ padding-top: 20px;
+}
+
+.video03 {
+ background: url('images/banner4.jpg') ;
+top center no-repeat;
+ background-size: cover;
+ padding : 22px;
+ min-height : 30vh;
+ margin-top: 10px;
+ padding-top: 20px;
+}
+
+.video04 {
+ background: url('images/banner5.jpg') ;
+top center no-repeat;
+ background-size: cover;
+ padding : 22px;
+ min-height : 30vh;
+ margin-top: 10px;
+ padding-top: 20px;
+}
+
+.video05 {
+ background: url('images/banner6.jpg') ;
+top center no-repeat;
+ background-size: cover;
+ padding : 22px;
+ min-height : 40vh;
+ margin-top: 10px;
+ padding-top: 20px;
+}
